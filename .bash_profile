@@ -14,6 +14,8 @@ export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 
+JUPYTERLAB_DIR=$HOME/.local/share/jupyter/lab
+
 tldr --update &
 # Sourcing for rust
 # . "$CARGO_HOME/env"
